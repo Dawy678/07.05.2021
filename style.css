@@ -1,0 +1,46 @@
+input {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    width: 50%;
+    border-radius: 4%;
+    border: dashed 2px rgb(182, 182, 182);
+    transition: ease 1s;
+    height: 25px;
+    outline: none;
+    margin-top: 50px;
+}
+button, option, select {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border-radius: 4%;
+    border: dashed 2px rgb(182, 182, 182);
+    transition: ease 1s;
+    height: 25px;
+    outline: none;
+    margin-top: 50px;
+}
+.app {
+   margin-left: 15%;
+   margin-right: 15%; 
+   background-color: white;
+}
+input:hover, button:hover, select:hover, option:hover {
+    border-radius: 5%;
+    border: dashed 2px rgb(0, 0, 0);
+    border-radius: 3.5%;
+}
+option:hover {
+    background-color: white;
+    color: black;
+}
+body {
+    background-image: url(./zdj/The\ Last\ of\ Us\ Part\ 2\ \ \ 38\ 4K\ ScreenshotsWallpapers\ r.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+#wybor {
+    margin-bottom: 50px;
+}

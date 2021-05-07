@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app">
+
+
+        <input type="text"  placeholder="Imię" id="inp1" onchange="changeImie()">
+        <p id="p1" style="visibility: hidden;">Imię nie może być krótsze niż 3 znaki.</p>
+        <input type="text"  placeholder="Nazwisko" id="inp2" onchange="changeNazwisko()">
+        <p id="p2" style="visibility: hidden;">Nazwisko nie może być krótsze niż 2 znaki.</p>
+        <input type="email"  placeholder="Email" id="inp3" onchange="changeEmail(value)">
+        <p id="p3" style="visibility: hidden;" >Adres e-mail musi posiadać "@" w sobie.</p>
+        <input type="text"  placeholder="Telefon" id="inp4" onchange="changeTelefon(value)">
+        <p id="p4" style="visibility: hidden;">Numer telefonu musi mieć cyfry i tylko cyfry</p>
+        <input type="text"  placeholder="Wiadomość do sprzedającego" id="inp5" onchange="changeWiadomosc()">
+        <p id="p5" style="visibility: hidden;">Wiadomość do sprzedającego nie może być krótsza niż 10 znaków.</p>
+        <button onclick="xd(value)">Wyślij</button>
+        <select id="wybor" onchange="xd2()">
+            <option value="1">kebab</option>
+            <option value="2">pizza</option>
+            <option value="3">burger</option>
+            <option value="4">nuggetsy</option>
+            <option value="5">kanapka wegetariańska</option>
+        </select>
+
+
+
+
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
